@@ -1,0 +1,81 @@
+body {
+ 
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+
+.container {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 30px;
+    margin: auto;
+    height: 350px;
+
+    width: 50%;
+}
+
+.players {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    
+}
+
+.board {
+    background-color: #12232E;
+    background-color: #553d67;
+    display: grid;
+    grid-template-columns: 80px 80px 80px;
+    grid-template-rows: 80px 80px 80px;
+    width: 100%;
+    padding: 1em 0 1em 0;
+    margin-bottom: 0;
+    justify-content: center;
+   
+}
+
+.field {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 54px;
+    background-color: #553d67;
+    color: #12232E;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 3px solid #203647;
+    border-right: 3px solid #203647;
+    outline: none;
+}
+
+.field.no-r {
+    border-right: none;
+}
+
+body > div.container > div > button:nth-child(7), body > div.container > div > button:nth-child(8),body > div.container > div > button:nth-child(9)  {
+    border-bottom: none;
+}
+
+.rst {
+    display: grid;
+    width: 100%;
+    margin: auto;
+    height: 50px;
+}
+
+.restartBtn {
+    width: 100%;
+    height: 35px;
+    border: none;
+    border-radius: 0% 0% 10px 10px / 10px 10px 10px 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+
+}
+
+button:hover {
+    cursor: pointer;
+}
